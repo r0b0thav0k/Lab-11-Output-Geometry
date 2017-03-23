@@ -1,6 +1,6 @@
 /*****************************************************************************
- * AUTHOR	  : Stanley Ferguson and Jeff Thomas
- * STUDENT ID : 1052330 and 1007159
+ * AUTHOR	  : 
+ * STUDENT ID     : 
  * LAB #11	  : Output - Geometry
  * CLASS	  : CS1A
  * SECTION	  : MW: 8am
@@ -37,7 +37,7 @@ using namespace std;
  * 	  	rectangleWidth	: the width of the rectangle
  * 	  	rectangleHeight	: the height of the rectangle
  *
- *    *************
+ *    	  *************
  * 	  *** set 3 ***
  * 	  *************
  * 	  	circleRadius	: the radius of the circle
@@ -48,9 +48,9 @@ using namespace std;
  * 	and circle circumference
  * 		triangleArea 	    : the area of the triangle
  * 		trianglePerimeter   : the perimeter of the triangle
- * 		rectangleArea		: the area of the rectangle
+ * 		rectangleArea	    : the area of the rectangle
  * 		rectanglePerimeter  : the perimeter of the rectangle
- * 		circleArea			: the area of the circle
+ * 		circleArea	    : the area of the circle
  * 		circleCircumference : the circumference of the circle
  *
  *****************************************************************************/
@@ -68,35 +68,35 @@ int main()
 	 * LAB_NUM	  : Lab Number (specific to this lab)
 	 * LAB_NAME	  : Title of the Lab
 	 *************************************************************************/
-	const char PROGRAMMER[] = "Stanley Ferguson and Jeff Thomas";
-	const char CLASS[]		= "CS1A";
+	const char PROGRAMMER[] = " ";
+	const char CLASS[]	= "CS1A";
 	const char SECTION[]	= "MW: 8:00a";
-	const int  LAB_NUM		= 11;
+	const int  LAB_NUM	= 11;
 	const char LAB_NAME[]	= "Output - Geometry";
-	const float PI 			= 3.14159;
+	const float PI 		= 3.14159;
 
-	float triangleHeight;      // IN         - Set 1: triangle height
-	float triangleBase;        // IN         - Set 1: triangle base
-	float triangleArea;        // CALC & OUT - Set 1: triangle area
-	float trianglePerimeter;   // CALC & OUT - Set 1: triangle perimeter
+	float triangleHeight;      // INPUT & CALC - Set 1: triangle height
+	float triangleBase;        // INPUT & CALC - Set 1: triangle base
+	float triangleArea;        // CALC & OUT   - Set 1: triangle area
+	float trianglePerimeter;   // CALC & OUT   - Set 1: triangle perimeter
 
-	float rectangleWidth;      // IN		 - Set 2: rectangle width
-	float rectangleHeight;	   // IN		 - Set 2: rectangle height
-	float rectangleArea;	   // CALC & OUT - Set 2: rectangle area
-	float rectanglePerimeter;  // CALC & OUT - Set 2: rectangle perimeter
+	float rectangleWidth;      // INPUT & CALC - Set 2: rectangle width
+	float rectangleHeight;	   // INPUT & CALC - Set 2: rectangle height
+	float rectangleArea;	   // CALC & OUT   - Set 2: rectangle area
+	float rectanglePerimeter;  // CALC & OUT   - Set 2: rectangle perimeter
 
-	float circleRadius;		   // IN		 - Set 3: circle radius
-	float circleArea;		   // CALC & OUT - Set 3: circle area
-	float circleCircumference; // CALC & OUT - Set 3: circle circumference
+	float circleRadius;	   // INPUT & CALC - Set 3: circle radius
+	float circleArea;	   // CALC & OUT   - Set 3: circle area
+	float circleCircumference; // CALC & OUT   - Set 3: circle circumference
 
 	// OUTPUT - Class Heading
 	cout << left;
-	cout << "**************************************************\n";
+	cout << "********************************************************\n";
 	cout << "*  PROGRAMMED BY : "  << PROGRAMMER << endl;
-	cout << "*  "	   << setw(14) << "CLASS"	 << ": " << CLASS    << endl;
+	cout << "*  "	   << setw(14) << "CLASS"    << ": " << CLASS    << endl;
 	cout << "*  "	   << setw(14) << "SECTION"  << ": " << SECTION  << endl;
-	cout << "*  LAB #" << setw(9)  << LAB_NUM	 << ": " << LAB_NAME << endl;
-	cout << "**************************************************\n\n";
+	cout << "*  LAB #" << setw(9)  << LAB_NUM    << ": " << LAB_NAME << endl;
+	cout << "********************************************************\n\n";
 	cout << right;
 
 	/*************************************************************************
@@ -186,8 +186,8 @@ int main()
 	 * OUTPUT - Set 3: output the area and circumference of the circle
 	 *
 	 * 			CIRCLE OBJECT
-	 * 				 Area     Circumference
-	 * 			  201.062		    50.2654
+	 * 			Area     Circumference
+	 * 			201.062	       50.2654
 	 *************************************************************************/
 	// OUTPUT - one set of data (circleArea, & circleCircumference)
 	cout << endl << "CIRCLE OBJECT" << endl;
